@@ -1,14 +1,11 @@
 const imagesController = {
-    async getImages(req, res) {
+  async getImages(req, res) {
+    //allow all origins
+    res.setHeader("Access-Control-Allow-Origin", "*");
+    const imagesData = require('../../data/data.json');
+    res.send(imagesData);
 
-        //allow all origins
-        res.setHeader('Access-Control-Allow-Origin', '*');
-        
-        res.send('OK')
+  },
+};
 
-        
-    },
-  };
-  
-  module.exports = imagesController;
-  
+module.exports = imagesController;
