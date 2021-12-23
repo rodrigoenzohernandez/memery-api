@@ -1,0 +1,17 @@
+{
+    "backFace": {
+        "class": "back",
+        "src": "images/backface.png"
+    },
+    "frontFace": {
+        "class": "front",
+        "imagesSrc": [
+            "images/meme1.png",
+            "images/meme2.png",
+            "images/meme3.png",
+            "images/meme4.png",
+            "images/meme5.png",
+            "images/meme6.png"
+        ]
+    }
+}
